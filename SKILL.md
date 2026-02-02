@@ -351,8 +351,109 @@ Use these labels consistently:
 - **CRITICAL: Presenting assumptions as verified facts**
 - **CRITICAL: Using specific numbers without clear source or [PLACEHOLDER] label**
 
-## Examples of Good Triggering Questions
 
+## The Amazon Working Backwards PR/FAQ Process
+
+### Overview
+The Working Backwards PR/FAQ process is a systematic approach to vetting and developing new product ideas by starting with the customer experience and iteratively working backwards. Its principal tool is the PR/FAQ (Press Release and Frequently Asked Questions), which forces clarity of thought and customer focus before building anything.
+
+### PR/FAQ Structure
+
+**Press Release Components:**
+- **Heading:** Product name, clear and customer-understandable.
+- **Subheading:** Define the specific customer segment and the benefit they gain.
+- **Summary Paragraph:** City, media outlet, proposed launch date, and a summary of the product and its benefits.
+- **Problem Paragraph:** Describe the customer problem(s) from their point of view, focusing on the most important and high-value issues (TAM, willingness to pay).
+- **Solution Paragraph(s):** Detail how the product solves the problem, why it is differentiated, and how it compares to current solutions. Be specific and concise.
+- **Quotes & Getting Started:** Include a quote from a company spokesperson and a hypothetical customer, plus a call to action for getting started.
+
+**FAQ Components:**
+- **External FAQs:**
+	- How does it work?
+	- What is the price?
+	- How do I get help/customer support?
+	- Where can I buy it?
+	- Warranty, return policy, installation, etc.
+- **Internal FAQs:**
+	- What products/solutions do customers use today?
+	- What problem(s) does this solve?
+	- How is this product better, cheaper, or faster than alternatives?
+	- Who are the competitors?
+	- What is the TAM and estimated demand?
+	- What are the per-unit economics and expected profitability?
+	- What are the key risks, dependencies, and required new capabilities?
+	- What assumptions must be true for success? What could kill this idea?
+	- What are the top three reasons this product might not succeed?
+
+### Process Best Practices
+- **Iterative Drafting:** The first draft should be quick and rough. Iterate with feedback from cross-functional peers and decision-makers.
+- **Truth-Seeking, Not Selling:** The goal is to clarify and improve the idea, not to "sell" it. Encourage debate and honest assessment.
+- **Critical Review:** Use a rubric to assess value, usability, feasibility, and business viability. Ask: Is the customer/problem/solution clearly defined? Is the TAM big enough? Is the product truly differentiated?
+- **Funnel, Not Tunnel:** Start with many ideas, progressively eliminate weaker ones, and focus on the highest-potential opportunities.
+- **Customer-Backwards, Not Skills-Forward:** Focus on what customers need, not just what your team is good at building.
+- **Data Integrity:** Never fabricate data. Use placeholders and clear labels for missing information. Always cite sources and preserve uncertainty.
+
+### Common Mistakes to Avoid
+- Confusing speed with velocity (directionless activity vs. purposeful progress)
+- Discounting competition or current solutions
+- Building a great product for the wrong problem
+- Skipping the hard questions about viability, economics, or differentiation
+
+## Working Backwards: Practical Templates & Checklist
+
+Use these templates to operationalize the press-release-first approach and convert ideas into testable experiments and clear requirements.
+
+### Press Release Template (one paragraph summary + bullets)
+- Heading: [Product name] — one-line customer-facing title
+- Subheading: [Target customer] — primary benefit in one sentence
+- Summary: [City] — [Media] — [Launch date]. One-paragraph summary of the product and the measurable customer benefit.
+- Problem: Short paragraph describing the customer pain and why it matters.
+- Solution: How this product solves the problem; why it is differentiated.
+- Customer quote: A short realistic quote that explains the benefit.
+- Getting started: How a customer would adopt or purchase.
+
+### PR-FAQ Template (questions to answer concisely)
+- What problem does this solve, and for whom? ([Primary persona])
+- How will customers experience the product? (step-by-step scenario)
+- What are the key success metrics? (leading + lagging indicators)
+- What are the riskiest assumptions? (list + evidence status)
+- How do customers solve this today? (alternatives and gaps)
+- What is the business model and per-unit economics? (high level)
+- What could kill this idea? (top 3 failure modes)
+
+### Quick Checklist: Before You Build
+- Press Release drafted and crisp
+- Top 3 assumptions identified and prioritized
+- Success metrics defined with targets and how to measure them
+- Competitor/alternative analysis sketched (what customers do today)
+- Minimal experiment(s) defined to validate riskiest assumption(s)
+
+### Example: Minimal PR → Experiment Map
+- PR: "[Feature] saves [persona] X minutes/week, reducing churn by Y%"
+- Assumption: Persona will adopt when X is delivered
+- Experiment: Prototype landing page + signup flow → measure click-to-signup conversion; interview 10 users
+
+### How this skill uses Working Backwards
+- Default output includes a press release draft and PR-FAQ when user chooses "Comprehensive Working-Backwards Documentation." 
+- When asked for a PRD, the skill will still start by drafting the press release and PR-FAQ to surface assumptions and success metrics.
+- For decision-focused one-pagers, the press-release framing is used as the first-line "benefit statement" to make the recommendation explicit.
+
+---
+
+End of skill.
+- Presenting assumptions as facts or fabricating data
+
+### Review and Decision Guidance
+- **PR/FAQ Review Meetings:**
+	- Circulate the document for silent reading and annotation.
+	- Use the meeting for questions, debate, and discussion.
+	- Reviewers should evaluate: customer clarity, problem clarity, solution fit, differentiation, TAM, constraints, and risks.
+	- Feedback should guide further research and iteration.
+- **Decision Points:**
+	- Go: Move forward with clear next steps and resource allocation.
+	- No-Go: Identify reasons (e.g., not differentiated, TAM too small, high risk) and suggest next actions (pivot, research, deprioritize).
+
+### Example Triggering Questions
 - "Help me write a PR/FAQ for [idea]"
 - "Should we build [feature]?"
 - "I have a product idea about [X], can you help me think through it?"
