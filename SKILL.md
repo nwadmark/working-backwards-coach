@@ -434,14 +434,9 @@ Use these templates to operationalize the press-release-first approach and conve
 - Experiment: Prototype landing page + signup flow → measure click-to-signup conversion; interview 10 users
 
 ### How this skill uses Working Backwards
-- Default output includes a press release draft and PR-FAQ when user chooses "Comprehensive Working-Backwards Documentation." 
+- Default output includes a press release draft and PR-FAQ when user chooses "Comprehensive Working-Backwards Documentation."
 - When asked for a PRD, the skill will still start by drafting the press release and PR-FAQ to surface assumptions and success metrics.
 - For decision-focused one-pagers, the press-release framing is used as the first-line "benefit statement" to make the recommendation explicit.
-
----
-
-End of skill.
-- Presenting assumptions as facts or fabricating data
 
 ### Review and Decision Guidance
 - **PR/FAQ Review Meetings:**
@@ -464,3 +459,7 @@ End of skill.
 - "I need a product requirements document for [product]"
 - "Help me write product requirements for the engineering team"
 - "We've decided to build [X], help me spec it out"
+
+---
+
+End of skill.

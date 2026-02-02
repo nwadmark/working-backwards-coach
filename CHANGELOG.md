@@ -5,8 +5,6 @@
 	- Press-release-first writing and PR/FAQ approach to define features by customer benefit.
 	- Customer obsession and metrics-driven success criteria.
 	- Iterative drafting: clarify requirements by writing the narrative first and backfilling technical tasks.
-	- PR-FAQ and measurable metrics to validate improvements.
-
-- Notes:
-	- This PR currently adds the changelog entry describing the SKILL.md extension.
-	- To include the full content changes to `SKILL.md`, push the updates to the `dev` branch and the PR will include them for review.
+	- Practical templates: Press Release, PR-FAQ, and pre-build checklist.
+	- Experiment mapping to convert assumptions into testable hypotheses.
+	- Review and decision guidance for PR/FAQ meetings.
