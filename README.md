@@ -89,3 +89,5 @@ Issues and PRs welcome. If you've found ways to improve the coaching workflow or
 ## License
 
 MIT — use it however you'd like.
+
+Built with ❤️ by NW (https://github.com/nwadmark)
