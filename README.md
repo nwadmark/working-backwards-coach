@@ -1,6 +1,6 @@
 # Working Backwards Coach
 
-A Claude skill that transforms product ideas into rigorous, customer-first documentation — and pushes you to do the hard thinking before the writing.
+A Claude skill that transforms product ideas into rigorous, customer-first documentation — and pushes you to do the hard thinking before the writing or building.
 
 ## What This Does
 
