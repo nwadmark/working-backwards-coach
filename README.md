@@ -82,6 +82,11 @@ Each dimension is rated Strong / Moderate / Weak / Unknown, leading to a clear r
 
 The skill never fabricates data. If you haven't provided market sizes, competitive pricing, or customer metrics, it uses `[PLACEHOLDER]` labels and tells you exactly what research you need to do. Assumptions are always labeled as assumptions.
 
+## Further Reading
+
+[#] (further-reading)
+-[Working Backwards, a note on using this method for product thinking](https://nidhiwadmark.substack.com/p/working-backwards)
+
 ## Contributing
 
 Issues and PRs welcome. If you've found ways to improve the coaching workflow or templates, I'd love to hear about it.
